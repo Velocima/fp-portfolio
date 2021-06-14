@@ -1,4 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Merriweather&display=swap');
+
+/* global styling */
+
 * {
 	margin: 0;
 	padding: 0;
+	color: #202223;
+}
+
+h1,
+h2 {
+	font-family: 'Comfortaa', cursive;
+}
+
+/* local styling */
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(#e3fdfd, #a6e3e9);
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h1 span,
+h2 span {
+	color: #f21170;
+}
+img {
+	width: 20vw;
+	height: 20vw;
+	object-fit: cover;
+	border-radius: 50%;
+	backface-visibility: hidden;
+	box-shadow: 1px 3px 8px white;
+	margin: 30px 0;
+}
+
+h2 {
+	font-size: 56px;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+	max-width: 80vw;
 }
