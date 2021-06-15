@@ -18,8 +18,7 @@ a {
 	font-family: 'Comfortaa', cursive;
 }
 
-h1 span,
-h2 span,
+.highlight-color,
 a {
 	color: #f21170;
 }
@@ -97,4 +96,64 @@ p {
 	box-shadow: 1px 3px 8px white;
 	font-size: 20px;
 	font-family: 'Merriweather', serif;
+}
+
+/* animations */
+
+/*  */
+h1 span:nth-child(1) {
+	display: inline-block;
+	animation: fade-from-left 0.8s 0.9s ease-out backwards;
+}
+h1 span:nth-child(2) {
+	display: inline-block;
+	animation: fade-from-left 0.8s 0.8s ease-out backwards;
+}
+h1 span:nth-child(3) {
+	display: inline-block;
+	animation: fade-from-left 0.8s 0.7s ease-out backwards;
+}
+h1 span:nth-child(4) {
+	display: inline-block;
+	animation: fade-from-left 0.8s 0.6s ease-out backwards;
+}
+h1 span:nth-child(5) {
+	display: inline-block;
+	animation: fade-from-left 0.8s 0.5s ease-out backwards;
+}
+h1 span:nth-child(6) {
+	display: inline-block;
+	animation: fade-from-left 0.8s 0.4s ease-out backwards;
+}
+h1 span:nth-child(7) {
+	display: inline-block;
+	animation: fade-from-left 0.8s 0.3s ease-out backwards;
+}
+h1 span:nth-child(8) {
+	display: inline-block;
+	animation: fade-from-left 0.8s 0.2s ease-out backwards;
+}
+h1 span:nth-child(9) {
+	display: inline-block;
+	animation: fade-from-left 0.8s 0.1s ease-out backwards;
+}
+h1 span:nth-child(10) {
+	display: inline-block;
+	animation: fade-from-left 0.8s ease-out backwards;
+}
+
+/* h2 */
+
+@keyframes fade-from-left {
+	from {
+		opacity: 0;
+		transform: translateX(-400px);
+	}
+	50% {
+		opacity: 0.2;
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
